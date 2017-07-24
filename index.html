@@ -114,11 +114,19 @@
 					</header>
 					<div class="box">
 						<form method="post" action="http://formspree.io/harish.boke@gmail.com">
-							<div class="field half first"><input type="text" name="name" placeholder="Name" /></div>
-							<div class="field half"><input type="email" name="email" placeholder="Email" required /></div>
-							<div class="field half first"> <input type="tel" name="telephone" placeholder="(Area code) Number" required /></div>
-							<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea>
-						</div>
+							<div class="field half first">
+								<textarea name="message" placeholder="Message" rows="6"></textarea>
+							</div>
+							<div class="field half">
+								<input type="text" name="name" placeholder="Name" />
+							</div>
+							<div class="field half">
+								<input type="email" name="email" placeholder="Email" required />
+							</div>
+							<div class="field half"> 
+								<input type="tel" name="telephone" placeholder="(Area code) Number" required />
+							</div>
+							
 						<input type="hidden" name="_subject" value="New submission on harish.website!" />
 						<input type="hidden" name="_next" value="//site.io/thanks.html" />
 							<ul class="actions">
